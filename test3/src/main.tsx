@@ -7,8 +7,14 @@ import Result from './Result.tsx'
 
 const router = createBrowserRouter([
   {
-    path: "result",
-    element: <Result />
+    path: "/",
+    element: <>Home Page</>,
+    children: [
+      {
+        path: "result",
+        element: <Result />
+      }
+    ]
   }
 ])
 
