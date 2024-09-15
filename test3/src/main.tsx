@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import Home from './App.tsx'
 import './index.css'
 import Result from './Result.tsx'
+import Question from './question.tsx'
 
 const router = createBrowserRouter([
   {
