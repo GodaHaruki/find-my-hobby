@@ -1,20 +1,13 @@
-interface jobs {
-    [name: string]: {
-        jobname: React.ReactNode
-        description: React.ReactNode
-    }
-};
-
-const jobs: jobs = {
+const jobs = {
     "programmer": {
-        jobname: "プログラマー",
+        name: "プログラマー",
         description: "プログラマーはインキャ"
     },
     "soundcreater": {
-        jobname: "サウンドクリエーター",
+        name: "サウンドクリエーター",
         description: "さうんどくりえーたーは"
-    }
-};
+    },
+} as const;
 
 export interface ResultProps {
     jobname: keyof typeof jobs
@@ -23,7 +16,7 @@ export interface ResultProps {
 function Result(props: ResultProps){
     return (
         <>
-        <h1>当選！あなたには{jobs[props.jobname].jobname}が向いています！</h1>
+        <h1>当選！あなたには{jobs[props.jobname].name}が向いています！</h1>
         </>
     );
 }
