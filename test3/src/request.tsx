@@ -1,4 +1,4 @@
-function R() {
+function Request() {
     return(
        <>
        <h1>If you feel bad, please write something of the points which let us improve ?</h1>
@@ -6,4 +6,4 @@ function R() {
 
     );
     }
-    export default R;
+    export default Request;
