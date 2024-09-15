@@ -8,7 +8,7 @@ const jobs: jobs = {
     "programmer": {
         description: "プログラマーはインキャ"
     },
-    "soundcreater" {
+    "soundcreater": {
         description: "さうんどくりえーたーは"
     }
 };
