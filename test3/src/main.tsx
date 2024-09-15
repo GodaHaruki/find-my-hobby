@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "result",
-    element: <Result jobname={'programmer'} />
+    element: <Result jobname={'soundcreater'} />
   },
   {
     path: "question",
