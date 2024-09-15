@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Question from './question';
-
+import Request from './request';
 
 
 function Home() {
@@ -16,8 +16,8 @@ return(
     </nav>
 
     <Routes>
-        <Route path="/puestion[1]" element={<question />}/>
-        <Route path="/request" element={<request />}/>
+        <Route path="/puestion[1]" element={<Question />} />
+        <Route path="/request" element={<Request />} />
     </Routes>
 </div>
 </Router>

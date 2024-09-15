@@ -1,0 +1,14 @@
+import Question from 'App.tsx'
+
+function Q() {
+return(
+<>
+<h1>Hello</h1>
+</>
+
+)
+
+
+
+}
+export default Q;
